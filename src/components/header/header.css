@@ -1,0 +1,6 @@
+#header-img {
+ width: 100%;
+ height: 300px; 
+ background: url('./header.png') repeat-x 0 0;
+ text-align: center;
+}
