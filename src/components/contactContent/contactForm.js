@@ -15,22 +15,22 @@ class ContactForm extends Component {
 
                             <div className="wrap-input validate-input" data-validate="Please enter your name">
                                 <input className="input" type="text" name="name" placeholder="Full Name" />
-                                <span className="focus-input"></span>
+                                <span className="focus-input"/>
                             </div>
 
                             <div className="wrap-input validate-input" data-validate="Please enter your email: e@a.x">
                                 <input className="input" type="text" name="email" placeholder="E-mail" />
-                                <span className="focus-input"></span>
+                                <span className="focus-input"/>
                             </div>
 
                             <div className="wrap-input validate-input" data-validate="Please enter your phone">
                                 <input className="input" type="text" name="phone" placeholder="Phone" />
-                                <span className="focus-input"></span>
+                                <span className="focus-input"/>
                             </div>
 
                             <div className="wrap-input validate-input" data-validate="Please enter your message">
-                                <textarea className="input" name="message" placeholder="Your Message"></textarea>
-                                <span className="focus-input"></span>
+                                <textarea className="input" name="message" placeholder="Your Message"/>
+                                <span className="focus-input"/>
                             </div>
 
                             <div className="container-contact-form-btn">

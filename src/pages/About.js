@@ -3,6 +3,7 @@ import Header from '../components/header/Header'
 import Menu from '../components/menubar/Menu';
 import Footer from '../components/footer/Footer'
 import AboutContent from '../components/aboutContent/aboutConent'
+import MapContainer from '../components/googleMaps/googleMap'
 import logo from './logo.png';
 
 class About extends React.Component {
@@ -16,14 +17,15 @@ class About extends React.Component {
     ];
     return (
       <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <Header />
         <div className="menu_bar">
           <Menu links={links} logo={logo} />
         </div>
-        <hr></hr>
+        <hr/>
         <AboutContent />
-        <hr></hr>
+        <hr/>
+        <MapContainer/>
         <Footer />
       </div>
     );

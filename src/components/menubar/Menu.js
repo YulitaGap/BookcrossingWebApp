@@ -47,8 +47,8 @@ class Menu extends Component {
                     </ul>
 
                     <button onClick={this.showForm.bind(this)} style={{
-                        backgroundImage: 'url(' + searchIcon + ')'
-                    }} className="menu__search-button"></button>
+    backgroundImage: 'url(' + searchIcon + ')'
+}} className="menu__search-button"/>
 
                     {searchForm}
                 </div>
