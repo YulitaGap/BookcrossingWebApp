@@ -17,13 +17,13 @@ class App extends Component {
 
     return (
       <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <Header />
         <div className="menu_bar">
           <Menu links={links} logo={logo} />
         </div>
         <Content />
-        <hr></hr>
+        <hr/>
         <Footer />
       </div>
     );

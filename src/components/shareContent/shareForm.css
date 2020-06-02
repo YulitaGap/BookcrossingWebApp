@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
 
 * {
-  font-family: 'Montserrat';
+    font-family: 'Montserrat', serif;
 }
 
 input {
     outline: none;
     border: none;
 }
-  
+
 textarea {
     outline: none;
     border: none;
@@ -23,17 +23,17 @@ button {
     border: none;
     background: transparent;
 }
-  
+
 button:hover {
     cursor: pointer;
 }
-  
+
 .container {
     max-width: 1200px;
 }
 
-.container-contact { 
-    width: 100%;  
+.container-share {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -43,20 +43,20 @@ button:hover {
     position: relative;
     background-color: #050505;
 }
-  
-.wrap-contact {
+
+.wrap-share {
     width: 550px;
     background: transparent;
-    padding: 50px 0px 160px 0;
+    padding: 50px 0 160px 0;
 }
 
-.contact-form {
+.share-form {
     width: 100%;
 }
 
-.contact-form-title {
+.share-form-title {
     display: block;
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-size: 30px;
     color: #fffd08;
     line-height: 1.2;
@@ -80,15 +80,10 @@ button:hover {
     width: 100%;
     background: #fff;
     border-radius: 31px;
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-size: 18px;
     color: #242423;
     line-height: 1.2;
-}
-
-input.input {
-    height: 62px;
-    padding: 0 35px 0 35px;
 }
 
 textarea.input {
@@ -115,14 +110,14 @@ textarea.input {
     width: calc(100% + 20px);
 }
 
-.container-contact-form-btn {
+.container-share-form-btn {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 10px;
 }
 
-.contact-form-btn {
+.share-form-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,7 +127,7 @@ textarea.input {
     background-color: transparent;
     border-radius: 31px;
 
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-size: 16px;
     color:#050505;
     line-height: 1.2;
@@ -143,7 +138,7 @@ textarea.input {
     z-index: 1;
 }
 
-.contact-form-btn::before {
+.share-form-btn::before {
     content: "";
     display: block;
     position: absolute;
@@ -159,7 +154,7 @@ textarea.input {
     transition: all 0.4s;
 }
 
-.contact-form-btn:hover:before {
+.share-form-btn:hover:before {
     background-color: #fffd08;
     width: calc(100% + 20px);
 }
@@ -169,7 +164,7 @@ textarea.input {
     overflow: hidden;
     display: inline-block;
 }
-  
+
 .btn {
     border: 3px solid #fffd08;
     color: gray;
@@ -179,7 +174,7 @@ textarea.input {
     font-size: 18px;
     font-family: Montserrat;
 }
-  
+
 .upload-btn-wrapper input[type=file] {
     font-size: 100px;
     position: absolute;
@@ -187,4 +182,4 @@ textarea.input {
     top: 0;
     opacity: 0;
 }
-  
+

@@ -1,0 +1,17 @@
+{
+  "books": [
+    {
+      "book_author": "Софія Андрухович",
+      "book_name": "Амадока",
+      "errors":{
+      "book_author": "",
+      "book_name": "",
+      "publisher": "",
+      "publishment_year": ""
+    },
+      "myfile": "",
+      "publisher": "Видавництво Старого Лева",
+      "publishment_year": "2020"
+    }
+  ]
+}

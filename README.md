@@ -16,4 +16,8 @@ Current version of application is deployed here : https://yulitagap.github.io/Bo
 - [x] Implement new components
 - [x] Implement new components
 ## Part 3️⃣
+- [x] Add validation to existing form
+- [x] google-maps-api (added, simple map created, but final usage not ready)
+- [x] json server usage trial
+
 ## Part 4️⃣

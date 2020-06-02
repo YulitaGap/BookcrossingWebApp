@@ -5,8 +5,8 @@ class AboutContent extends Component {
     render() {
         return (
             <div>
-                <div id="about-img"></div>
-                    </div>
+                <div id="about-img" />
+            </div>
         );
     }
 }
